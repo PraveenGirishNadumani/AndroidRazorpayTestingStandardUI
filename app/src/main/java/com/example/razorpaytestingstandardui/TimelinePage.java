@@ -68,7 +68,7 @@ public class TimelinePage extends AppCompatActivity implements PaymentResultList
             options.put("name","praveen");
             options.put("description","paying for the dog");
             options.put("currency","INR");
-            options.put("amout",amount*100);
+            options.put("amount",amount*100);
            Log.e(TAG,"calling checkout");
             checkout.open(activity,options);
 
